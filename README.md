@@ -1,6 +1,8 @@
-# 2D SLAM using an extended Kalman filter on LiDAR and INS data
+# 2D LiDAR/INS SLAM with extended Kalman filter
 
-Final year project
+**Author:** Jan Xu
+
+Masters project.
 
 # License
 
