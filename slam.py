@@ -34,8 +34,10 @@ class SLAM:
                 Path string to LiDAR dataset (.csv-file).
             gt_traj_file (str):
                 Path string to ground truth trajectory (.csv-file).
+                Default: "gt_data/gt_traj.csv"
             gt_env_file (str):
                 Path string to ground truth environment (.csv-file).
+                Default: "gt_data/gt_wall.csv"
         """
 
         self.algorithm = algorithm
@@ -56,10 +58,14 @@ class SLAM:
         Args:
             stby (int):
                 Number of initial IMU readings (standby readings)
-                before first movement.
+                before first movement. Default: 700.
             offset_quat (bool):
                 If True, the quaternion readings will be offset such that
-                initial heading is zero.
+                initial heading is zero. Default: True.
+            gravity_bias_est (bool):
+                If True, the initial bias estimation, including estimating
+                gravity component in the z-direction, will be done by averaging
+                across the first ´stby´ number of IMU readings. Default: False
         """
 
         imu = pd.read_csv(self.imu_file, usecols=["field.header.stamp",
@@ -513,8 +519,8 @@ class SLAM:
 
         Args:
             gf <GlobalFrame object>:
-                Instance of GlobalFrame (specified in `icp_functions`)
-                representing the global navigation frame of the SLAM problem.
+                Instance of GlobalFrame (specified in `icp`) representing the
+                global navigation frame of the SLAM problem.
             r_new [1D Numpy array]:
                 Range readings of the point cloud from the LiDAR scan in the
                 current time step.
