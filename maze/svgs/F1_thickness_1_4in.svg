@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <svg viewBox="0 -24  48 24" xmlns="http://www.w3.org/2000/svg" version="1.0" overflow="visible">
+  <defs>
+   <g id="ID__#42_Model_Space"/>
+   <g id="ID__#42_Paper_Space0"/>
+   <g id="ID__#42_Paper_Space"/>
+  </defs>
+  <g id="draft" transform="matrix(1 0 0 -1 0 0)" stroke-width="0.009000000000000001">
+   <g id="ID_0" color="rgb(0,0,0)" stroke="currentColor" fill="none" stroke-width="0.009000000000000001">
+    <path d="M 16 8 L 20 8 L 20 8.125 L 16 8.125  z" color="rgb(255,1,1)" stroke="currentColor" id="ID_234"/>
+    <path d="M 24 8 L 28 8 L 28 8.125 L 24 8.125  z" color="rgb(255,1,1)" stroke="currentColor" id="ID_235"/>
+    <path d="M 32 8 L 36 8 L 36 8.125 L 32 8.125  z" color="rgb(255,1,1)" stroke="currentColor" id="ID_236"/>
+    <path d="M 40 8 L 44 8 L 44 8.125 L 40 8.125  z" color="rgb(255,1,1)" stroke="currentColor" id="ID_237"/>
+    <path d="M 15.875 0 L 15.875 4 L 16 4 L 16 0 L 48 0 L 48 4 L 47.875 4 L 47.875 8 L 48 8 L 48 24 L 44 24 L 44 23.875 L 40 23.875 L 40 24 L 36 24 L 36 23.875 L 32 23.875 L 32 24 L 28 24 L 28 23.875 L 24 23.875 L 24 24 L 20 24 L 20 23.875 L 16 23.875 L 16 24 L 12 24 L 12 23.875 L 8 23.875 L 8 24 L 4 24 L 4 23.875 L 0 23.875 L 0 20 L 0.125 20 L 0.125 16 L 0 16 L 0 12 L 0.125 12 L 0.125 8 L 0 8 L 0 4 L 0.125 4 L 0.125 0  z" color="rgb(255,1,1)" stroke="currentColor" id="ID_2AD"/>
+   </g>
+  </g>
+ </svg>

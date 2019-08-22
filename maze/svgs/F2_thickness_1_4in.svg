@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <svg viewBox="0 -24  48 24" xmlns="http://www.w3.org/2000/svg" version="1.0" overflow="visible">
+  <defs>
+   <g id="ID__#42_Model_Space"/>
+   <g id="ID__#42_Paper_Space0"/>
+   <g id="ID__#42_Paper_Space"/>
+  </defs>
+  <g id="draft" transform="matrix(1 0 0 -1 0 0)" stroke-width="0.009000000000000001">
+   <g id="ID_0" color="rgb(0,0,0)" stroke="currentColor" fill="none" stroke-width="0.009000000000000001">
+    <path d="M 0.125 16 L 0 16 L 0 12 L 0.125 12 L 0.125 8 L 0 8 L 0 4 L 0.125 4 L 0.125 0 L 4 0 L 4 0.125 L 8 0.125 L 8 0 L 12 0 L 12 0.125 L 16 0.125 L 16 0 L 20 0 L 20 0.125 L 24 0.125 L 24 0 L 28 0 L 28 0.125 L 32 0.125 L 32 0 L 48 0 L 48 4 L 47.875 4 L 47.875 8 L 48 8 L 48 12 L 47.875 12 L 47.875 16 L 48 16 L 48 20 L 47.875 20 L 47.875 24 L 0 24 L 0 20 L 0.125 20  z" color="rgb(255,1,1)" stroke="currentColor" id="ID_2C4"/>
+    <path d="M 15.875 16 L 16 16 L 16 20 L 15.875 20  z" color="rgb(255,1,1)" stroke="currentColor" id="ID_2C5"/>
+    <path d="M 32.125 4 L 32 4 L 32 8 L 32.125 8  z" color="rgb(255,1,1)" stroke="currentColor" id="ID_2C6"/>
+    <path d="M 32.125 12 L 32 12 L 32 16 L 32.125 16  z" color="rgb(255,1,1)" stroke="currentColor" id="ID_2C7"/>
+   </g>
+  </g>
+ </svg>
