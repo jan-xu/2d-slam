@@ -4,6 +4,14 @@
 
 Masters project.
 
+- Context
+- Input data
+- How to run
+- Reference to report
+- Images of results
+- RMSE
+
+
 # License
 
 MIT
