@@ -47,9 +47,10 @@ The folder ```sensordata``` contains all the datasets for the sensors, separated
 
 # Output
 
-The output from the main program will consist of a Matplotlib figure, plotting the estimated trajectory (dashed-dotted blue lines) and the experimental environment (purple dots/dashed lines). Two sample images, one using the ICP algorithm and one using the feature-based line segment approach for the scan matching procedure, are shown below.
+The output from the main program will consist of a Matplotlib figure, plotting the estimated trajectory (dashed-dotted blue lines) and the experimental environment (purple dots/dashed lines). Two sample images, the first one using the ICP algorithm and the second one using the feature-based line segment approach for the scan matching procedure, are shown below.
 
 ![alt text](https://raw.githubusercontent.com/jan-xu/2d-slam/master/png/SLAM_ICP.png "EKF results using ICP algorithm")
+
 ![alt text](https://raw.githubusercontent.com/jan-xu/2d-slam/master/png/SLAM_feature.png "EKF results using feature-based scan matching algorithm")
 
 Finally, the deviation error are printed out in terms of the root mean squared error (RMSE) in meters between estimate and ground truth for both the trajectory and the experimental environment. A Matplotlib figure showing the deviation error along the trajectory is also outputted before the program terminates:
@@ -57,7 +58,7 @@ Finally, the deviation error are printed out in terms of the root mean squared e
 ![alt text](https://raw.githubusercontent.com/jan-xu/2d-slam/master/png/errorgraph.png "Graph of deviation error of estimated trajectory")
 
 ## Contact
-[Jan Xu](mailto:jan.xu@berkeley.edu)
+[jan.xu@berkeley.edu](mailto:jan.xu@berkeley.edu)
 
 Telephone: +44 7763 524380
 
