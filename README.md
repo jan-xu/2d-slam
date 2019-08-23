@@ -12,7 +12,15 @@ As interest in autonomous robot navigation grows, Self-Localization and Mapping 
 
 The experimental environment used for this project was a custom-built plywood maze with a 3D-printed sensor package box, seen below:
 
-![alt text](https://raw.githubusercontent.com/jan-xu//master/png/label_coding.png)
+![alt text](https://raw.githubusercontent.com/jan-xu/2d-slam/master/png/IMG_3610.png "Experimental setup")
+
+The dimensions of the model were carefully measured and then rendered numerically to establish ground truth:
+
+![alt text](https://raw.githubusercontent.com/jan-xu/2d-slam/master/png/groundtruth.png "Ground truth")
+
+For detailed information regarding the project, please refer to the [project report](https://raw.githubusercontent.com/jan-xu/2d-slam/master/report/Final Year Report.pdf "Project Report")
+
+## Input data
 
 - Context
 - Input data
