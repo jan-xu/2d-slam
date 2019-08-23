@@ -3,9 +3,16 @@ from slam import SLAM
 
 if __name__ == "__main__":
     # Verify user input arguments and initialize input data
-    algorithm = sys.argv[1].lower()
-    imu_path = sys.argv[2]
-    lid_path = sys.argv[3]
+    try:
+        assert len(sys.argv) == 4
+        algorithm = sys.argv[1].lower()
+        imu_path = sys.argv[2]
+        lid_path = sys.argv[3]
+    except AssertionError:
+        n_args = len(sys.argv) - 1
+        print("\nExpected number of arguments: 3. Received: {0}. Correct usage of function:".format(n_args))
+        print("´´´$ python3 main.py [algorithm] [path-to-IMU-data] [path-to-LiDAR-data]´´´\n")
+        sys.exit()
 
     try:
         assert algorithm in ["feature", "icp"]
