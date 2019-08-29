@@ -21,14 +21,14 @@ if __name__ == "__main__":
         print("´´´$ python3 main.py [algorithm] [path-to-IMU-data] [path-to-LiDAR-data]´´´\n")
         sys.exit()
 
-    #try:
-    slam = SLAM(algorithm, imu_path, lid_path)
-    slam.get_imu_data()
-    slam.get_lidar_data()
-    #except:
-    #    print("\nInvalid filename(s). Correct usage of function:")
-    #    print("´´´$ python3 main.py [algorithm] [path-to-IMU-data] [path-to-LiDAR-data]´´´\n")
-    #    sys.exit()
+    try:
+        slam = SLAM(algorithm, imu_path, lid_path)
+        slam.get_imu_data()
+        slam.get_lidar_data()
+    except:
+        print("\nInvalid filename(s). Correct usage of function:")
+        print("´´´$ python3 main.py [algorithm] [path-to-IMU-data] [path-to-LiDAR-data]´´´\n")
+        sys.exit()
 
     # Visualize ground truth
     print("Plotting ground truth\n" + 50*"=")
