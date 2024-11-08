@@ -58,9 +58,7 @@ Finally, the deviation error are printed out in terms of the root mean squared e
 ![alt text](https://raw.githubusercontent.com/jan-xu/2d-slam/master/png/errorgraph.png "Graph of deviation error of estimated trajectory")
 
 ## Contact
-[jan.xu@berkeley.edu](mailto:jan.xu@berkeley.edu)
-
-Telephone: +44 7763 524380
+[jan_xu@outlook.com](mailto:jan_xu@outlook.com)
 
 # License
 
